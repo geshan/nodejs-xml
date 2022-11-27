@@ -8,7 +8,7 @@ const result = XMLValidator.validate(xmlFile, {
   allowBooleanAttributes: true
 });
 
-console.log(`result: `, result);
+console.log(`Is XML valid?`, result);
 
 const parser = new XMLParser();
 let json = parser.parse(xmlFile);
